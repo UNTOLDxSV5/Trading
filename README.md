@@ -4,6 +4,4 @@ This repository contains my work on trading strategies, quantitative analysis, a
 
 Disclaimer:
 
-1->The folder "Framework_And_Workflow" contains all my code, including both working and non-working versions. It serves as a reference for the development process that led to the final     implementation. Feel free to explore it if you're interested in the workflow behind the final strategy.
-
-2->Pfd's are not viewable in git itself so please download it to view.
+1->Some content might not be viewable directly in Git. If that's the case, you may need to download the content to view it properly.
