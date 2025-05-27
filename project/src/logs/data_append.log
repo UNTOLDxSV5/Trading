@@ -1,0 +1,27 @@
+2025-05-23 19:06:56,614 - INFO - Updated data saved to 'data/data.csv'.
+2025-05-23 19:06:56,640 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-23 19:06:58,010 - INFO - Use pytorch device: cpu
+2025-05-23 19:08:59,200 - INFO - Missing values before fill in column 'source': 0
+2025-05-23 19:08:59,200 - INFO - Missing values before fill in column 'date': 0
+2025-05-23 19:08:59,200 - INFO - Missing values before fill in column 'curve_list': 0
+2025-05-23 19:08:59,200 - INFO - Missing values before fill in column 'comment': 0
+2025-05-23 19:08:59,200 - INFO - Missing values before fill in column 'grouping_var': 0
+2025-05-23 19:08:59,221 - INFO - Updated data saved to 'data/data.csv'.
+2025-05-23 19:08:59,250 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-23 19:09:00,115 - INFO - Use pytorch device: cpu
+2025-05-23 20:05:52,695 - INFO - Missing values before fill in column 'source': 0
+2025-05-23 20:05:52,695 - INFO - Missing values before fill in column 'date': 0
+2025-05-23 20:05:52,695 - INFO - Missing values before fill in column 'curve_list': 0
+2025-05-23 20:05:52,695 - INFO - Missing values before fill in column 'comment': 0
+2025-05-23 20:05:52,695 - INFO - Missing values before fill in column 'grouping_var': 0
+2025-05-23 20:05:52,717 - INFO - Updated data saved to 'data/data.csv'.
+2025-05-23 20:05:52,745 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-23 20:05:54,396 - INFO - Use pytorch device: cpu
+2025-05-23 20:34:16,062 - INFO - Missing values before fill in column 'source': 0
+2025-05-23 20:34:16,063 - INFO - Missing values before fill in column 'date': 0
+2025-05-23 20:34:16,063 - INFO - Missing values before fill in column 'curve_list': 0
+2025-05-23 20:34:16,063 - INFO - Missing values before fill in column 'comment': 0
+2025-05-23 20:34:16,063 - INFO - Missing values before fill in column 'grouping_var': 0
+2025-05-23 20:34:16,080 - INFO - Updated data saved to 'data/data.csv'.
+2025-05-23 20:34:16,113 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-23 20:34:16,895 - INFO - Use pytorch device: cpu

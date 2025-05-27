@@ -1,0 +1,189 @@
+
+Cluster 0:
+arrives 2h month
+arrives by 2h of every month
+arrives on 1h of every month
+arrives on monthends
+
+Cluster 1:
+broker stopped publishing 10ppm
+data available broker stopped providing 10ppm
+
+Cluster 2:
+arrives 1st  3rd thursday of every month
+arrives on 1st  3rd tuesday of every month
+
+Cluster 3:
+baltic holiday
+
+Cluster 4:
+ze is working on it
+ze is working on the fix
+
+Cluster 5:
+arrives last wednesday of every month
+arrives on last week of every month
+
+Cluster 6:
+ze depricated processor
+
+Cluster 7:
+in coding
+
+Cluster 8:
+holiday
+
+Cluster 9:
+mexico holiday
+
+Cluster 10:
+broker file not available desk confirmed to have the curve as it is
+broker file not received desk confirmed to have the curve as it is
+
+Cluster 11:
+arrives 1st half of every month
+arrives on 1st half of every month
+
+Cluster 12:
+platts holiday
+
+Cluster 13:
+uk holiday
+
+Cluster 14:
+no publication
+
+Cluster 15:
+curve calc is not related to this source
+
+Cluster 16:
+icis holiday
+
+Cluster 17:
+smm holiday
+
+Cluster 18:
+products moved to different report
+
+Cluster 19:
+no publishment
+
+Cluster 20:
+no data arrival on friday for this report
+
+Cluster 21:
+waiting
+
+Cluster 22:
+argus holiday
+
+Cluster 23:
+nzu holiday
+
+Cluster 24:
+shfe holiday
+
+Cluster 25:
+rim holiday
+
+Cluster 26:
+no publication for last week of every month
+
+Cluster 27:
+no trader updates
+
+Cluster 28:
+broker mail not received followup mail sent
+
+Cluster 29:
+broker file not received followup mail sent
+
+Cluster 30:
+products moved to different report curve cleanup in progress
+
+Cluster 31:
+revamping processor to collect from email
+
+Cluster 32:
+sent mail to vendor
+
+Cluster 33:
+migrated to different report working on the curve fix
+
+Cluster 34:
+patch received yet to be deployed
+
+Cluster 35:
+product temporarily suspended  notified by argus
+
+Cluster 36:
+dce holiday
+
+Cluster 37:
+arrives later the day
+
+Cluster 38:
+eex is working on it
+
+Cluster 39:
+platts internal technical issue as confirmed with them they are working on the resolution
+
+Cluster 40:
+curves built on diff report
+
+Cluster 41:
+products discontinued working on fix
+
+Cluster 42:
+product discontinued working on the fixcleanup process
+
+Cluster 43:
+zce holiday
+
+Cluster 44:
+contract expired as confirmed with argus
+
+Cluster 45:
+monthly data
+
+Cluster 46:
+data available
+
+Cluster 47:
+processor depricated
+
+Cluster 48:
+vendor stopped sending data working on decommision
+
+Cluster 49:
+raised with ze
+
+Cluster 50:
+data available broker stopped providing bonito since march
+
+Cluster 51:
+no publishment by platts basis confirmation with the report
+
+Cluster 52:
+patch released
+
+Cluster 53:
+liaising with vendor on backfilling
+
+Cluster 54:
+australia holiday
+
+Cluster 55:
+arrives on 1st day of every month
+
+Cluster 56:
+no assessment as confirmed with platts
+
+Cluster 57:
+product discontinued
+
+Cluster 58:
+file arrived late
+
+Cluster 59:
+ine holiday
