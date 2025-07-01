@@ -1,0 +1,222 @@
+
+Cluster 0:
+arrives 2h month
+arrives by 2h of every month
+arrives on 1h of every month
+arrives on monthends
+
+Cluster 1:
+ze is working on it
+ze is working on the fix
+
+Cluster 2:
+broker stopped publishing 10ppm
+data available broker stopped providing 10ppm
+
+Cluster 3:
+arrives last wednesday of every month
+arrives on last week of every month
+
+Cluster 4:
+arrives 1st  3rd thursday of every month
+arrives on 1st  3rd tuesday of every month
+
+Cluster 5:
+argus holiday
+
+Cluster 6:
+arrives 1st half of every month
+arrives on 1st half of every month
+
+Cluster 7:
+data collected
+
+Cluster 8:
+baltic holiday
+
+Cluster 9:
+icis holiday
+
+Cluster 10:
+platts holiday
+
+Cluster 11:
+data available
+
+Cluster 12:
+info not receive mail sent to vendor
+
+Cluster 13:
+zce holiday
+
+Cluster 14:
+broker file not available desk confirmed to have the curve as it is
+broker file not received desk confirmed to have the curve as it is
+
+Cluster 15:
+ze depricated processor
+
+Cluster 16:
+no publication
+
+Cluster 17:
+file arrived late
+
+Cluster 18:
+in coding
+
+Cluster 19:
+no publication for last week of every month
+
+Cluster 20:
+patch released
+
+Cluster 22:
+dce holiday
+
+Cluster 23:
+curve calc is not related to this source
+
+Cluster 24:
+smm holiday
+
+Cluster 25:
+curves built on diff report
+
+Cluster 26:
+mexico holiday
+
+Cluster 27:
+products moved to different report
+
+Cluster 28:
+monthly data
+
+Cluster 29:
+platts internal technical issue as confirmed with them they are working on the resolution
+
+Cluster 30:
+shfe holiday
+
+Cluster 31:
+rim holiday
+
+Cluster 32:
+holiday
+
+Cluster 33:
+uk holiday
+
+Cluster 34:
+product discontinued working on the fixcleanup process
+
+Cluster 35:
+product temporarily suspended  notified by argus
+
+Cluster 36:
+broker file not received followup mail sent
+
+Cluster 37:
+products moved to different report curve cleanup in progress
+
+Cluster 38:
+upon analysing prices are available under product feua of the same report but product feaa is delisted as per eex newsletter need to discuss
+
+Cluster 39:
+processor issue raised with ze
+
+Cluster 40:
+no trader updates
+
+Cluster 41:
+migrated to different report working on the curve fix
+
+Cluster 42:
+info will arrive on last day of the month
+
+Cluster 43:
+anurag will check it
+
+Cluster 44:
+info will arrive starting on june 1st
+
+Cluster 45:
+contract expired as confirmed with argus
+
+Cluster 46:
+arrives later the day
+
+Cluster 47:
+revamping processor to collect from email
+
+Cluster 48:
+product suspended as confirmed by source
+
+Cluster 49:
+no publishment
+
+Cluster 50:
+info not published by vendor yet confirmed in api
+
+Cluster 51:
+no publishment by platts basis confirmation with the report
+
+Cluster 52:
+eex is working on it
+
+Cluster 53:
+info will arrive on the following days
+
+Cluster 54:
+raisded with ze
+
+Cluster 55:
+processor depricated
+
+Cluster 56:
+vendor sends different format not impact in collected data
+
+Cluster 57:
+product discontinued
+
+Cluster 58:
+no data arrival on friday for this report
+
+Cluster 59:
+products discontinued working on fix
+
+Cluster 60:
+nzu holiday
+
+Cluster 61:
+vendor stopped sending data working on decommision
+
+Cluster 62:
+raised with ze
+
+Cluster 63:
+data available broker stopped providing bonito since march
+
+Cluster 64:
+sent mail to vendor
+
+Cluster 65:
+patch received yet to be deployed
+
+Cluster 66:
+liaising with vendor on backfilling
+
+Cluster 67:
+australia holiday
+
+Cluster 68:
+arrives on 1st day of every month
+
+Cluster 69:
+no assessment as confirmed with platts
+
+Cluster 70:
+broker mail not received followup mail sent
+
+Cluster 71:
+ine holiday
