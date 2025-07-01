@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multi-Level Lots & Required Tesla Move Calculator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #f9f9f9; color: #222; }
+    label { display: block; margin-top: 1rem; }
+    input[type=number] { padding: 0.4rem; font-size: 1rem; width: 100px; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-size: 1rem; }
+    .result { margin-top: 1.5rem; font-weight: bold; color: #004466; }
+  </style>
+</head>
+<body>
+
+  <h2>Multi-Level Lots & Required Tesla Move Calculator</h2>
+
+  <label>
+    Profit Target ($):
+    <input type="number" id="profit" value="2500" min="1" />
+  </label>
+
+  <label>
+    Delta (0 to 1):
+    <input type="number" id="delta" step="0.001" value="0.425" min="0.01" max="1" />
+  </label>
+
+  <label>
+    Current Level (e.g. 3 means lots from levels 1 to 3 are active):
+    <input type="number" id="currentLevel" value="3" min="1" max="10" />
+  </label>
+
+  <p>Enter lots added at each level (max 10 levels):</p>
+
+  <div id="lotsInputs"></div>
+
+  <button onclick="calculateMove()">Calculate Required Tesla Move</button>
+
+  <div class="result" id="result"></div>
+
+  <script>
+    // Dynamically generate 10 inputs for lots per level
+    const lotsContainer = document.getElementById('lotsInputs');
+    for(let i = 1; i <= 10; i++) {
+      const label = document.createElement('label');
+      label.innerHTML = `Level ${i} Lots: <input type="number" min="0" value="0" id="lotLevel${i}" style="width:60px;" />`;
+      lotsContainer.appendChild(label);
+    }
+
+    // Default example lots for first 5 levels:
+    document.getElementById('lotLevel1').value = 1;
+    document.getElementById('lotLevel2').value = 2;
+    document.getElementById('lotLevel3').value = 3;
+    document.getElementById('lotLevel4').value = 4;
+    document.getElementById('lotLevel5').value = 5;
+
+    function calculateMove() {
+      const profit = parseFloat(document.getElementById('profit').value);
+      const delta = parseFloat(document.getElementById('delta').value);
+      const currentLevel = parseInt(document.getElementById('currentLevel').value);
+
+      if (profit <= 0 || delta <= 0 || delta > 1 || currentLevel < 1 || currentLevel > 10) {
+        document.getElementById('result').innerText = 'Please enter valid inputs. Delta must be between 0 and 1. Level between 1 and 10.';
+        return;
+      }
+
+      // Sum all lots up to current level
+      let totalLots = 0;
+      for(let i = 1; i <= currentLevel; i++) {
+        let lotCount = parseFloat(document.getElementById(`lotLevel${i}`).value);
+        if (isNaN(lotCount) || lotCount < 0) {
+          document.getElementById('result').innerText = `Invalid lot count at level ${i}`;
+          return;
+        }
+        totalLots += lotCount;
+      }
+
+      if (totalLots === 0) {
+        document.getElementById('result').innerText = 'Total lots cannot be zero.';
+        return;
+      }
+
+      // Calculate required Tesla move
+      // Move = Profit / (totalLots * 100 * delta)
+      const requiredMove = profit / (totalLots * 100 * delta);
+
+      document.getElementById('result').innerText =
+        `Total lots active: ${totalLots}\n` +
+        `Tesla must move approximately $${requiredMove.toFixed(2)} in your favor ` +
+        `to make $${profit} profit with delta ${delta}.`;
+    }
+  </script>
+
+</body>
+</html>
