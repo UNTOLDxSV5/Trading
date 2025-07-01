@@ -10,15 +10,15 @@ This repository contains various projects related to trading strategies, quantit
 
 1. [Projects](#projects)
    1. [Trading Folder](#trading-folder)
-      1. [Backtesting](#backtesting)
+      1. [newyork_session_momentum](#newyork_session_momentum)
       2. [LSTM Model](#lstm-model)
       3. [Other Proofs](#other-proofs)
       4. [Research Papers](#research-papers)
-      5. [Risk Analysis](#risk-analysis)
+      5. [monti_carlo_](#risk-analysis)
    2. [Comment Classifier Project](#comment-classifier-project)
    3. [Data Validation Project](#data-validation-project)
    4. [Settlement Time Extraction](#settlement-time-extraction)
-   5. [Helper Calculators](#helper-calculators)
+   5. [Helper Functions](#helper-functions)
 2. [Disclaimer](#disclaimer)
 3. [Usage](#usage)
 4. [Contribution Guidelines](#contribution-guidelines)
@@ -32,7 +32,7 @@ This repository contains various projects related to trading strategies, quantit
 
 This folder contains my **personal work on trading strategies, quantitative analysis**, and other **research**. Below are the key sub-projects in this folder:
 
-#### Backtesting
+#### newyork_session_momentum
 This sub-project focuses on testing a trading hypothesis where the **momentum** of Asian and London sessions is analyzed to predict the likelihood of momentum following through into the New York session.
 
 - **Key Insight**: I found that there is a **68% chance** that momentum observed during the Asian and London sessions will follow through into the NY session.
@@ -97,7 +97,7 @@ Extracts settlement time data from the source/arbitrator website, especially for
 
 ---
 
-### `Helper Calculators`
+### `Helper Functions`
 
 Tools designed to assist traders in understanding their exposure for planned trades. These calculators provide insights into risk management and position sizing.
 
