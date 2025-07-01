@@ -97,7 +97,7 @@ Extracts settlement time data from the source/arbitrator website, especially for
 
 ---
 
-### 5. Helper Calculators
+### 5. `Helper Calculators`
 
 Tools designed to assist traders in understanding their exposure for planned trades. These calculators provide insights into risk management and position sizing.
 
