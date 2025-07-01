@@ -24,7 +24,7 @@ This repository contains various projects related to trading strategies, quantit
 
 1. [Core Trading Strategies](#core-trading-strategies)
    1. [ny_session_momentum_analysis](#ny-session-momentum-analysis)
-   2. [lstm_market_direction_model](#lstm-market-direction-model)
+   2. [lstm market direction model](#lstm-market-direction-model)
    3. [volume_contraction_breakout_analysis](#volume-contraction-breakout-analysis)
    4. [Live Results and Backtests](#live-results-and-backtests)
    5. [Research Papers](#research-papers)
@@ -51,7 +51,7 @@ This sub-project focuses on testing a trading hypothesis where the **momentum** 
 - **Key Insight**: I found that there is a **68% chance** that momentum observed during the Asian and London sessions will follow through into the NY session.
 - **Data**: This logic was tested using data from **2010 to 2024**, and the model was rigorously backtested to validate the hypothesis.
 
-### `lstm_market_direction_model`
+### `lstm market direction model`
 The LSTM model was designed using **hand-derived custom data** (not relying on regular OHLC, volume, etc.). It processes the data and attempts to predict the next trend using **binary classification** (up or down) based on a **sliding window approach**.
 
 - **Win Rate**: The model achieves a **59% win rate**.
