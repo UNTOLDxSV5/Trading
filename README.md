@@ -23,12 +23,12 @@ This repository contains various projects related to trading strategies, quantit
 ## Table of Contents
 
 1. [Core Trading Strategies](#core-trading-strategies)
-   1. [ny_session_momentum_analysis](#ny-session-momentum-analysis)
+   1. [ny session momentum analysis](#ny-session-momentum-analysis)
    2. [lstm market direction model](#lstm-market-direction-model)
-   3. [volume_contraction_breakout_analysis](#volume-contraction-breakout-analysis)
+   3. [volume contraction breakout analysis](#volume-contraction-breakout-analysis)
    4. [Live Results and Backtests](#live-results-and-backtests)
    5. [Research Papers](#research-papers)
-   6. [Risk Simulation (Monte Carlo)](#risk-simulation-montecarlo)
+   6. [Risk Simulation Monte Carlo](#risk-simulation-montecarlo)
 2. [Trading Tools](#trading-tools)
    1. [Comment Classifier Project](#comment-classifier-project)
    2. [Data Validation Project](#data-validation-project)
@@ -45,7 +45,7 @@ This repository contains various projects related to trading strategies, quantit
 
 This folder contains my **personal work on trading strategies**, including quantitative models and analysis techniques. Below are the key sub-projects in this folder:
 
-### `ny_session_momentum_analysis`
+### `ny session momentum analysis`
 This sub-project focuses on testing a trading hypothesis where the **momentum** of Asian and London sessions is analyzed to predict the likelihood of momentum following through into the New York session.
 
 - **Key Insight**: I found that there is a **68% chance** that momentum observed during the Asian and London sessions will follow through into the NY session.
@@ -58,7 +58,7 @@ The LSTM model was designed using **hand-derived custom data** (not relying on r
 - **Issue**: The model suffers from **overfitting** due to insufficient data.
 - **Solution**: To address this, a **Generative Adversarial Network (GAN)** model is suggested to produce **synthetic data** for training, as data collection is time-consuming and costly.
 
-### `volume_contraction_breakout_analysis`
+### `volume contraction breakout analysis`
 This project investigates a commonly cited retail pattern — the “inside candle” — using a quantitative lens. It evaluates price continuation probability following inside bar formations, using volume confirmation and a **1:3 RR rule**.
 
 - **Win Rate**: The strategy provides a base win rate of **38%**.
