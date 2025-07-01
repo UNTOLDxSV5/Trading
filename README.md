@@ -28,7 +28,7 @@ This repository contains various projects related to trading strategies, quantit
    3. [volume contraction breakout analysis](#volume-contraction-breakout-analysis)
    4. [Live Results and Backtests](#live-results-and-backtests)
    5. [Research Papers](#research-papers)
-   6. [Risk Simulation Monte Carlo](#risk-simulation-montecarlo)
+   6. [Risk Simulation Monte Carlo](#risk-simulation-monte-carlo)
 2. [Trading Tools](#trading-tools)
    1. [Comment Classifier Project](#comment-classifier-project)
    2. [Data Validation Project](#data-validation-project)
