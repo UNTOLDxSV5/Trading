@@ -77,7 +77,7 @@ This section includes various **research papers** and **personal blog posts** wh
 - Strategies I’ve worked on or studied, along with the insights I’ve gained.
 - **Video tutorials** where I explain economic concepts, trading strategies, and other important topics.
 
-### `Risk Simulation (Monte Carlo)`
+### `Risk Simulation Monte Carlo`
 The risk simulation folder contains models used to simulate potential **trading scenarios** for my personal account, including:
 - **Monte Carlo simulations** that help evaluate the risk of various trading strategies.
 - These simulations provide insight into the **real-world risk exposure** and how different strategies would perform in various market conditions.
