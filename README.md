@@ -15,9 +15,9 @@ This repository contains various projects related to trading strategies, quantit
      - [Other Proofs](#other-proofs)
      - [Research Papers](#research-papers)
      - [Risk Analysis](#risk-analysis)
-   - [comment_classifier_project](#comment_classifier_project)
-   - [data_validation_project](#data_validation_project)
-   - [settlement_time_extraction](#settlement_time_extraction)
+   - [Comment Classifier Project](#comment-classifier-project)
+   - [Data Validation Project](#data-validation-project)
+   - [Settlement Time Extraction](#settlement-time-extraction)
    - [Helper Calculators](#helper-calculators)
 2. [Disclaimer](#disclaimer)
 3. [Usage](#usage)
@@ -64,7 +64,7 @@ The risk analysis folder contains models used to simulate potential **trading sc
 
 ---
 
-### 2. `comment_classifier_project`
+### 2. `Comment Classifier Project`
 
 An end-to-end, fully automated project that uses **AI/ML** to classify traders' comments on different commodities.
 
@@ -75,7 +75,7 @@ An end-to-end, fully automated project that uses **AI/ML** to classify traders' 
 
 ---
 
-### 3. `data_validation_project`
+### 3. `Data Validation Project`
 
 Validates data integrity from both external sources and internal systems to ensure consistency in contract prices (e.g., DFL, CFD, spread) for Brent.
 
@@ -86,7 +86,7 @@ Validates data integrity from both external sources and internal systems to ensu
 
 ---
 
-### 4. `settlement_time_extraction`
+### 4. `Settlement Time Extraction`
 
 Extracts settlement time data from the source/arbitrator website, especially for non-standard trading days. Allows traders to input a date and retrieve relevant product settlement times and reasons.
 
