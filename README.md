@@ -2,7 +2,7 @@
 
 ## 📌 Why This Repo Matters
 
-This repository is a complete collection of my work toward becoming a quantitative and discretionary trader. It includes:
+This repository is a complete collection of my work toward becoming a quantitative researcher and  Algorithmic trader. It includes:
 
 - Live-tested trading strategies with proven edge
 - AI/ML models trained on custom financial datasets
