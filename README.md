@@ -1,6 +1,6 @@
 # Trading Projects Repository
 
-## 📌 Why This Repo Matters
+##  Why This Repo Matters
 
 This repository is a complete collection of my work toward becoming a quantitative researcher and  Algorithmic trader. It includes:
 
